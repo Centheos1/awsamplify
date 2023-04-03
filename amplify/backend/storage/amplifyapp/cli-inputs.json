@@ -1,0 +1,13 @@
+{
+  "resourceName": "amplifyapp",
+  "policyUUID": "8f197a90",
+  "bucketName": "awsamplify81618083f4134fb29acbd09219875966",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
