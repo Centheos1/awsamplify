@@ -30,6 +30,8 @@ const App = ({ signOut }) => {
     const todosFromAPI = apiData.data.listTodos.items;
     await Promise.all(
       todosFromAPI.map(async (todo) => {
+        // WIP
+        console.log(`todo: `,todo)
         if (todo.image) {
           const url = await Storage.get(todo.name);
           todo.image = url;
